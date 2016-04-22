@@ -5,15 +5,8 @@ body {
   	text-align: center;
   	line-height: 1.5;
   	letter-spacing: 1px;
-  	background: url("../images/beachcoverimage.png");
-  	background-color: #303673;
-  	background-size: cover;
-  	background-repeat: no-repeat;
-  	color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    width: 600px;
-    margin: auto;
+  	font-family: 'Lato', sans-serif;
+  	font-size: 16px;
 }
 
 h1 {
@@ -36,33 +29,27 @@ a {
 }
 
 section{
-  padding:25px 0;
-}
-
-hr{
-  border:none;
-  height:1.5px;
-  background-color: #fffaf0;
-  width:15em;
-  margin:1em auto;
+  padding:1.5em 0;
 }
 
 #slogan {
 	width: 600px;
-  font-style: 900;
-  margin: auto;
+	font-style: 900;
+	margin: auto;
 }
 
-.about {
+#about {
   width: 30em;
   margin: auto;
+  text-align: left;
 }
 
-.navlinks{
+nav a{
   color: #fffaf0;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: .25em;
-  padding: 0 20px;
-  background: #303673
+  padding: .5em 1em;
+  background: #303673;
+  display: inline-block;
 }
