@@ -15,7 +15,6 @@ body {
 }
 
 nav{
-  /*background-color: #fff;*/
   float: left;
   padding: 1em;
 
@@ -27,24 +26,18 @@ nav a{
   font-weight: 400;
   letter-spacing: .25em;
   padding: .5em 1em;
-  /*background: #5B86BF;*/
   display: inline-block;
 }
 
 main {
   background-color: #DFDFDF;
-  width: 800px;
-  margin: auto;
 }
 
 header{
     background-color: #FFFFFF;
-    /*border: 1px black solid;*/
-    padding: 20px;
-    width: 400px;
-    height: 500px;
+    width: 50%;
     float: right;
-
+    padding: 4em 4em;
 }
 
 h1 {
@@ -57,7 +50,7 @@ h2{
 }
 
 p{
-  padding-top: 2em;
+  margin-top: 2em;
 }
 
 a {
@@ -70,16 +63,11 @@ footer{
   background-color: #FFFFFF;
 }
 
-#navbar{
+.wrapper{
   /*background-color: white;*/
-  width: 800px;
+  width: 75em;
   margin: auto;
 }
-
-#portfoliogroup {
-  width: 400px;
-}
-
 .clearfix:after{
   visibility: hidden;
   height: 0;
@@ -90,29 +78,20 @@ footer{
 }
 
 .portfolio1{
-  width: 400px;
+  width: 50%;
   float: left;
 }
 
 .portfolio2{
-  padding-top: 40px;
-  width: 400px;
+  width: 50%;
   float: right;
-  background-color: white;
 }
 
 .portfolio3{
-  width: 200px;
+  width: 25%;
   float: left;
 }
-
 .portfolio4{
-  width: 200px;
+  width: 25%;
   float: right;
 }
-
-.portfolio5{
-  width: 400px;
-  float: right;
-}
-
